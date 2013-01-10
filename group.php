@@ -68,11 +68,11 @@
 			<div class="flexslider"><!-- Start Flexslider -->
 	          <ul class="slides">
 	            <li>
-	  	    	    <img src="images/group/atolle.png" alt=""/>
+	  	    	    <img src="images/group/atolleFR.png" alt=""/>
 					<div class="flex-caption"><p>Atolle France <span><a class="roller" href="http://www.atolle.fr">go</a></span></p></div>
 					</li>
 	  	    		<li>
-	  	    	    <img src="images/group/atolle.png" alt=""/>
+	  	    	    <img src="images/group/atolleIT.png" alt=""/>
 				    <div class="flex-caption"><p>Atolle Italia <span><a class="roller" href="http://www.atolle.com">go</a></span></p></div>
 	  	    		</li>
 	  	    		<li>
