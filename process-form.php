@@ -12,8 +12,8 @@
  * $email_address = The email address that all form submissions will be sent to
  * $company_address = The destination address that will be used in the contact form */
 
-$email_address = 'sbierti@gmail.com';
-$company_address_1 = 'London, UK';
+$email_address = 'info@atolle.com';
+$company_address_1 = '3 Lloyd’s Avenue London EC3N 3DS';
 
 $company_address_2 = 'Tavagnacco, Udine, Italy';
 

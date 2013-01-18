@@ -110,7 +110,7 @@
 		<div class="nine columns">
 			<div class="four columns" style="border-bottom: 1px solid #E3E3E3">
 					
-				 <div class="street-address"><h3><?php echo $site_name;?></h3>123 via immaginaria, Suite 200 <br/>Atlanta, GA 30314</div>
+				 <div class="street-address"><h3><?php echo $site_name;?> Ltd</h3>Sutherland House – Suite 108<br/>3 Lloyd’s Avenue<br />City of London<br />London EC3N 3DS<br />United Kingdom</div>
 			</div>
 			<div class="four columns" style="padding-left:6%;">
 				
@@ -120,18 +120,6 @@
 		            </div>
 				
 			</div>
-			<div class="four columns" style="border-bottom: 1px solid #E3E3E3">
-
-				 <div class="street-address"><h3><?php echo $site_name;?></h3>123 via strana, 1 <br/>Tavagnacco, IT, 33010</div>
-			</div>
-			<div class="four columns" style="padding-left:6%;">
-				
-		            <!-- This is the container for the map -->
-		            <div id="map-outer-2">
-		                <div id="map-2"></img>&nbsp;</div>
-		            </div>
-
-			</div>
 		</div>
 	</div>
 	<div style="display:none">
@@ -140,8 +128,6 @@
 	</div>
 	</div><!-- End Container -->
   </div><!-- End Wrap FeatureInfo -->
-
-
 
       <div class="wrap lastfooterbody"><!-- Start Wrap LastFooterBody -->
 	  <div class="container">
