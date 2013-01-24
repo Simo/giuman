@@ -29,3 +29,11 @@ body {
 	padding-top: 10px;
    	height: 30px;
 }
+
+.active {
+	color:#1e1e1e;
+}
+
+#textTitle {
+	padding-left: 20%
+}

@@ -8,7 +8,7 @@ $site_keywords = array($site_name, $site_root);
 $site_author = 'sbierti';
 
 $scrpt = explode('.', $_SERVER['SCRIPT_NAME']);
-$pageName = $scrpt[0];
+$pageName = substr($scrpt[0],1);
 
 # it18n variables
 $lang = 'en'; #default value

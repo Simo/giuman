@@ -47,6 +47,7 @@
  <script  src="royalslider/jquery-1.8.0.min.js"></script>
  <script src="royalslider/jquery.royalslider.min.js"></script>
  <script src="preview-assets/js/colorbox/jquery.colorbox.js"></script>
+ <script src="preview-assets/js/jquery-ui-1.8.22.custom.min.js"></script>
  
  
  <!-- syntax highlighter -->
@@ -111,7 +112,7 @@
 
    <div class="sixteen columns">
    <div class="five columns" style="visibility:hidden">&nbsp;</div>
-   <div class="ten columns">
+   <div id="textTitle" class="ten columns">
          <h4><?php echo $contentTitle ?></h4>
      </div>
    </div>
@@ -120,11 +121,12 @@
 
    <div class="four columns alpha">
        <div id="colorbox-items">
-         <a class="colorboxSlider openBoxButton cboxElement" href="ajax-sliders/simple-slider.html" rel="">
+         <a class="colorboxSlider openBoxButton cboxElement" href="ajax-sliders/simple-slider.php" rel="">
          <div id="circle_photos" class="four columns pics">
-           <img src="http://flickholdr.com/220/150/bw" class="med-fade scale-with-grid" alt="">
-           <img src="http://flickholdr.com/220/150/sun" class="med-fade scale-with-grid" alt="">
-           <img src="http://flickholdr.com/220/150/snow" class="med-fade scale-with-grid" alt="">
+           <img src="images/works/7_mini.jpg" class="med-fade scale-with-grid" alt="">
+           <img src="images/works/12_mini.jpg" class="med-fade scale-with-grid" alt="">
+           <img src="images/works/5_mini.jpg" class="med-fade scale-with-grid" alt="">
+           <img src="images/works/1_mini.jpg" class="med-fade scale-with-grid" alt="">
          </div>
          </a>
        </div>
@@ -219,8 +221,8 @@
 <script type="text/javascript">
     $(document).ready(function(){
     $('#circle_photos').cycle();
-        $('#scrollbar1').tinyscrollbar();
-
+    $('#scrollbar1').tinyscrollbar();
+    $('.overview').disableSelection();
     });
 </script>
 

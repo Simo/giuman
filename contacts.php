@@ -110,7 +110,8 @@
 		<div class="nine columns">
 			<div class="four columns" style="border-bottom: 1px solid #E3E3E3">
 					
-				 <div class="street-address"><h3><?php echo $site_name;?> Ltd</h3>Sutherland House – Suite 108<br/>3 Lloyd’s Avenue<br />City of London<br />London EC3N 3DS<br />United Kingdom</div>
+				 <div class="street-address"><h3><?php echo $site_name;?> Ltd</h3>Sutherland House – Suite 108<br/>3 Lloyd’s Avenue<br />City of London<br />London EC3N 3DS<br />United Kingdom<br />T: +44 (0)20 30360750
+<br />F: +44 (0)20 71831758</div>
 			</div>
 			<div class="four columns" style="padding-left:6%;">
 				
@@ -161,14 +162,14 @@
 
 
      <script type='text/javascript'>
-    jQuery(function($){
+    //jQuery(function($){
     	var currentTime = new Date();
 		var year = currentTime.getFullYear();
-		if(year!=2012){
+		//if(year!=2012){
 			$("#year_now").text("-"+year);
-		}
+		//}
 
-    });
+   // });
     </script>
 
 

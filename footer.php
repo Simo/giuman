@@ -5,6 +5,6 @@
 		<a href="#"><img class="socialicons" title="<?php echo $social[2]; ?>" src="images/glylinked.png"/></a>
 	</p>
 	<div class="offset-by-eleven">
-		<p class="copyrightcol five columns omega">&copy; 2012<span id="year_now"></span> Itaco. <?php echo $copyRight;?></p>
+		<p class="copyrightcol five columns omega">&copy; 2012<span id="year_now"></span> Giuman. <?php echo $copyRight;?></p>
 	</div>
 </div>

@@ -6,7 +6,7 @@
           <?php 
             foreach ($links as $link) {
               echo '<div class="rsContent">'.
-                '<a class="rsImg" data-rsVideo="https://vimeo.com/31240369" href="'.$link[2].'">'.
+                '<a class="rsImg" data-rsVideo="" href="'.$link[2].'">'.
                   '<div class="rsTmb">'.
                     '<h5>'.$link[0].'</h5>'.
                     '<p>'.$link[1].'</p>'.
